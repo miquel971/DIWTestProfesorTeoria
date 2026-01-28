@@ -65,7 +65,7 @@ const totalQuestionsBank = [
     { question: "¿Qué valor de display coloca elementos en línea?", answers: ["inline", "block", "grid"], correct: "inline" },
     { question: "¿Qué propiedad define el fondo de un elemento?", answers: ["background", "color", "fill"], correct: "background" },
     { question: "¿Qué es la herencia en CSS?", answers: ["Propiedad por la que los elementos hijos adquieren ciertos estilos de sus padres", "Copiar archivos CSS de una web a otra", "Heredar clases de Bootstrap"], correct: "Propiedad por la que los elementos hijos adquieren ciertos estilos de sus padres" },
-    { question: "¿Cómo se escriben comentarios en CSS?", answers: ["/* comentario */", "// comentario", ""], correct: "/* comentario */" },
+    { question: "¿Cómo se escriben comentarios en CSS?", answers: ["/* comentario */", "// comentario", "=// comentario"], correct: "/* comentario */" },
     { question: "¿Qué propiedad alinea texto horizontalmente?", answers: ["text-align", "horizontal-align", "justify-content"], correct: "text-align" },
     { question: "¿Qué valor centra el texto?", answers: ["center", "middle", "justify"], correct: "center" },
     { question: "¿Qué selector tiene mayor especificidad?", answers: ["El selector de ID (#)", "El selector de clase (.)", "El selector de etiqueta"], correct: "El selector de ID (#)" },
