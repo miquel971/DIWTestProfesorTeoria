@@ -1,9 +1,8 @@
 /* ============================================================
    BANCO TOTAL DE PREGUNTAS (173 Preguntas - UF1 a UF7 UAX)
    ============================================================ */
-
 const totalQuestionsBank = [
-    // --- TEMA 1: LA INTERFAZ GRÁFICA ---
+    // --- UF1: LA INTERFAZ GRÁFICA ---
     { question: "¿Qué se entiende por interfaz en el contexto del desarrollo web?", answers: ["Conjunto de elementos que permiten la comunicación e intercambio de información entre el usuario y una máquina", "El hardware físico del servidor", "Un tipo de protocolo de red"], correct: "Conjunto de elementos que permiten la comunicación e intercambio de información entre el usuario y una máquina" },
     { question: "IPO corresponde a las siglas de ->", answers: ["Interacción Persona-Ordenador", "Interfaz de Programación Online", "Intercambio de Procesos Operativos"], correct: "Interacción Persona-Ordenador" },
     { question: "El objetivo principal de la IPO es ->", answers: ["Hacer que la interacción sea lo más natural, eficiente y satisfactoria posible para el usuario", "Reducir el consumo de memoria del navegador", "Permitir que el ordenador aprenda del usuario automáticamente"], correct: "Hacer que la interacción sea lo más natural, eficiente y satisfactoria posible para el usuario" },
@@ -33,7 +32,7 @@ const totalQuestionsBank = [
     { question: "Un diseño accesible debe tener en cuenta ->", answers: ["Contraste de colores, tamaño de fuente, navegación por teclado y textos alternativos", "Solo el idioma del código", "Que no tenga vídeos"], correct: "Contraste de colores, tamaño de fuente, navegación por teclado y textos alternativos" },
     { question: "En una buena interfaz web, el usuario debe ->", answers: ["Sentirse en control y saber en todo momento dónde está y qué puede hacer", "Estar confundido al principio", "Aprenderse el código fuente"], correct: "Sentirse en control y saber en todo momento dónde está y qué puede hacer" },
 
-    // --- TEMA 2: INTRODUCCIÓN A CSS ---
+    // --- UF2: INTRODUCCIÓN A CSS ---
     { question: "¿Qué significan las siglas CSS?", answers: ["Cascading Style Sheets (Hojas de Estilo en Cascada)", "Creative Style System", "Computer Simple Style"], correct: "Cascading Style Sheets (Hojas de Estilo en Cascada)" },
     { question: "¿Para qué se utiliza CSS en el desarrollo web?", answers: ["Para definir la presentación, diseño y aspecto visual de los documentos HTML", "Para programar la lógica del servidor", "Para crear bases de datos"], correct: "Para definir la presentación, diseño y aspecto visual de los documentos HTML" },
     { question: "¿Qué selector CSS selecciona todos los elementos?", answers: ["El selector universal (*)", "El selector de clase", "El selector de ID"], correct: "El selector universal (*)" },
@@ -54,7 +53,7 @@ const totalQuestionsBank = [
     { question: "¿Qué valor de display coloca elementos en línea?", answers: ["inline", "block", "grid"], correct: "inline" },
     { question: "¿Qué propiedad define el fondo de un elemento?", answers: ["background", "color", "fill"], correct: "background" },
     { question: "¿Qué es la herencia en CSS?", answers: ["Propiedad por la que los elementos hijos adquieren ciertos estilos de sus padres", "Copiar archivos CSS de una web a otra", "Heredar clases de Bootstrap"], correct: "Propiedad por la que los elementos hijos adquieren ciertos estilos de sus padres" },
-    { question: "¿Cómo se escriben comentarios en CSS?", answers: ["/* comentario */", "// comentario", ")// comentario"], correct: "/* comentario */" },
+    { question: "¿Cómo se escriben comentarios en CSS?", answers: ["/* comentario */", "// comentario", "/%/ comentario"], correct: "/* comentario */" },
     { question: "¿Qué propiedad alinea texto horizontalmente?", answers: ["text-align", "horizontal-align", "justify-content"], correct: "text-align" },
     { question: "¿Qué valor centra el texto?", answers: ["center", "middle", "justify"], correct: "center" },
     { question: "¿Qué selector tiene mayor especificidad?", answers: ["El selector de ID (#)", "El selector de clase (.)", "El selector de etiqueta"], correct: "El selector de ID (#)" },
@@ -65,7 +64,7 @@ const totalQuestionsBank = [
     { question: "¿Qué atributo HTML se usa para aplicar clases?", answers: ["class", "id", "style"], correct: "class" },
     { question: "¿Qué unidad depende del ancho del viewport?", answers: ["vw", "vh", "em"], correct: "vw" },
 
-    // --- TEMA 3: CSS AVANZADO ---
+    // --- UF3: CSS AVANZADO ---
     { question: "¿Qué tipo de diseño utiliza medidas fijas?", answers: ["Diseño estático o fijo", "Diseño líquido", "Diseño responsivo"], correct: "Diseño estático o fijo" },
     { question: "¿Qué problema presenta el diseño fijo en pantallas pequeñas?", answers: ["Obliga a usar scroll horizontal y no se adapta al ancho", "Las fuentes se borran", "Los colores pierden brillo"], correct: "Obliga a usar scroll horizontal y no se adapta al ancho" },
     { question: "¿En qué se basa el diseño elástico?", answers: ["En unidades relativas al tamaño de fuente (em)", "En porcentajes (%)", "En píxeles"], correct: "En unidades relativas al tamaño de fuente (em)" },
@@ -96,7 +95,7 @@ const totalQuestionsBank = [
     { question: "¿Qué directiva importa archivos SCSS?", answers: ["@import", "@use", "@include"], correct: "@import" },
     { question: "¿Qué ventaja aportan los preprocesadores CSS?", answers: ["Uso de variables, funciones, anidación y mejor organización", "Carga instantánea", "No requieren compilación"], correct: "Uso de variables, funciones, anidación y mejor organización" },
 
-    // --- TEMA 4: CREACIÓN DE INTERFACES GRÁFICAS ---
+    // --- UF4: CREACIÓN DE INTERFACES GRÁFICAS ---
     { question: "¿Qué es una plantilla web?", answers: ["Diseño predefinido que sirve como base para crear un sitio", "Un manual corporativo", "Un servidor"], correct: "Diseño predefinido que sirve como base para crear un sitio" },
     { question: "¿Cuál es el objetivo principal de usar plantillas?", answers: ["Ahorrar tiempo y costes en el desarrollo", "Evitar el HTML", "Proteger el código"], correct: "Ahorrar tiempo y costes en el desarrollo" },
     { question: "¿Qué ventaja aportan las plantillas en el mantenimiento?", answers: ["Facilitan cambios globales al modificar una base", "Hacen que sea diario", "No necesitan actualizarse"], correct: "Facilitan cambios globales al modificar una base" },
@@ -114,7 +113,7 @@ const totalQuestionsBank = [
     { question: "¿Qué archivo permite personalizar Bootstrap?", answers: ["Variables SASS o archivos CSS personalizados", "Imágenes .png", "Solo el HTML"], correct: "Variables SASS o archivos CSS personalizados" },
     { question: "¿Qué criterio es importante al elegir un framework CSS?", answers: ["Documentación, comunidad, peso y facilidad de uso", "Color del logo", "Antigüedad"], correct: "Documentación, comunidad, peso y facilidad de uso" },
 
-    // --- TEMA 5: COMPONENTES MULTIMEDIA ---
+    // --- UF5: COMPONENTES MULTIMEDIA ---
     { question: "¿Qué se considera contenido multimedia en una web?", answers: ["Texto, imágenes, audio, vídeo y animaciones", "Solo vídeo", "Solo texto"], correct: "Texto, imágenes, audio, vídeo y animaciones" },
     { question: "¿Cómo permite HTML5 incluir contenido multimedia?", answers: ["Mediante etiquetas nativas como <audio> y <video>", "Con Flash", "Con <iframe>"], correct: "Mediante etiquetas nativas como <audio> y <video>" },
     { question: "¿Qué etiqueta HTML se utiliza para audio?", answers: ["<audio>", "<sound>", "<mp3>"], correct: "<audio>" },
@@ -136,7 +135,7 @@ const totalQuestionsBank = [
     { question: "¿Qué problema puede causar un uso inadecuado de multimedia?", answers: ["Carga lenta de la página y mala experiencia de usuario", "Apaga el ordenador", "Invierte los colores"], correct: "Carga lenta de la página y mala experiencia de usuario" },
     { question: "¿Qué buena práctica se recomienda al usar multimedia en la web?", answers: ["Optimizar archivos y ofrecer alternativas textuales", "Audio automático", "Vídeos gigantes"], correct: "Optimizar archivos y ofrecer alternativas textuales" },
 
-    // --- TEMA 6: CONTENIDO INTERACTIVO ---
+    // --- UF6: CONTENIDO INTERACTIVO ---
     { question: "¿Qué es un evento en una página web?", answers: ["Acción o suceso detectado por el navegador (clic, carga, etc.)", "Una reunión", "Una actualización"], correct: "Acción o suceso detectado por el navegador (clic, carga, etc.)" },
     { question: "¿Para qué sirven los eventos en JavaScript?", answers: ["Para responder a las acciones del usuario y crear interactividad", "Para crear animaciones CSS", "Para cambiar el título en el servidor"], correct: "Para responder a las acciones del usuario y crear interactividad" },
     { question: "¿Qué lenguaje se utiliza para manejar eventos en el navegador?", answers: ["JavaScript", "HTML", "C++"], correct: "JavaScript" },
@@ -174,7 +173,7 @@ const totalQuestionsBank = [
     { question: "¿Qué organismo define las WCAG?", answers: ["W3C", "Google", "ISO"], correct: "W3C" },
     { question: "¿Qué son las WCAG?", answers: ["Pautas técnicas que definen cómo hacer la web accesible", "Manual SEO", "Normas de ciberseguridad"], correct: "Pautas técnicas que definen cómo hacer la web accesible" },
     { question: "¿Qué significan las siglas POUR?", answers: ["Perceptible, Operable, Comprensible (Understandable) y Robusto", "Potente, Ordenado, Útil y Real", "Página Organizada"], correct: "Perceptible, Operable, Comprensible (Understandable) y Robusto" },
-    { question: "¿Qué implica que un contenido sea perceptible?", answers: ["Que los usuarios puedan recibir la información a través de sus sentidos", "Que el código sea visible", "Que sea transparente"], correct: "Que los usuarios puedan recibir la información a través de sus sentidos" },
+    { question: "¿Qué implica que un contenido sea perceptible?", answers: ["Que los usuarios puedan recibir la información a través de sus sentidos", "Código visible", "Transparente"], correct: "Que los usuarios puedan recibir la información a través de sus sentidos" },
     { question: "¿Qué principio POUR se relaciona con el teclado?", answers: ["Operable", "Perceptible", "Robusto"], correct: "Operable" },
     { question: "¿Qué principio POUR exige que el contenido sea entendible?", answers: ["Comprensible (Understandable)", "Robusto", "Operable"], correct: "Comprensible (Understandable)" },
     { question: "¿Qué principio POUR se centra en la compatibilidad futura?", answers: ["Robusto", "Perceptible", "Estructurado"], correct: "Robusto" },
@@ -182,7 +181,7 @@ const totalQuestionsBank = [
     { question: "¿Para qué sirve el atributo alt en una imagen?", answers: ["Para describir la imagen a quien no puede verla", "Nombre interno", "Mejorar color"], correct: "Para describir la imagen a quien no puede verla" },
     { question: "¿Qué etiqueta HTML5 mejora la accesibilidad semántica?", answers: ["nav, header, main, footer, article, etc.", "div o span", "section únicamente"], correct: "nav, header, main, footer, article, etc." },
     { question: "¿Qué herramienta permite validar accesibilidad automáticamente?", answers: ["TAW o WAVE", "Photoshop", "Notepad++"], correct: "TAW o WAVE" },
-    { question: "¿Qué es ARIA?", answers: ["Accessible Rich Internet Applications (ayuda a la accesibilidad en contenido dinámico)", "IA para diseño", "Fuente tipográfica"], correct: "Accessible Rich Internet Applications (ayuda a la accesibilidad en contenido dinámico)" },
+    { question: "¿Qué es ARIA?", answers: ["Accessible Rich Internet Applications (ayuda a la accesibilidad en contenido dinámico)", "IA para diseño", "Fuente especial"], correct: "Accessible Rich Internet Applications (ayuda a la accesibilidad en contenido dinámico)" },
     { question: "¿Cuándo debe usarse ARIA?", answers: ["Cuando el HTML semántico no es suficiente para describir la función", "Siempre", "Solo en Apps"], correct: "Cuando el HTML semántico no es suficiente para describir la función" },
     { question: "¿Qué atributo ARIA define el rol de un elemento?", answers: ["role", "type", "description"], correct: "role" },
     { question: "¿Qué atributo ARIA oculta contenido a lectores de pantalla?", answers: ["aria-hidden", "aria-invisible", "aria-none"], correct: "aria-hidden" },
@@ -192,7 +191,7 @@ const totalQuestionsBank = [
 ];
 
 /* ============================================================
-   LÓGICA AUTOMÁTICA DEL MOTOR (script.js)
+   LÓGICA DE ROTACIÓN SIN REPETICIÓN (script.js)
    ============================================================ */
 
 let quizData = [];
@@ -203,34 +202,68 @@ let answered = false;
 // Referencias DOM
 const questionEl = document.getElementById('question');
 const optionsContainer = document.getElementById('options-container');
-const nextBtn = document.getElementById('next-btn');
 const resultScreen = document.getElementById('result-screen');
 const quizHeader = document.getElementById('quiz-header');
 
 /**
- * Función para mezclar y seleccionar 30 preguntas
+ * Gestiona la memoria de preguntas para que no se repitan
+ */
+function getAvailableQuestions() {
+    // Obtenemos IDs de preguntas ya hechas de la memoria del navegador
+    let playedIds = JSON.parse(localStorage.getItem('uax_played_questions')) || [];
+    
+    // Filtramos las que NO han sido jugadas aún
+    let available = totalQuestionsBank.filter((q, index) => !playedIds.includes(index));
+
+    // Si nos quedamos sin preguntas nuevas suficientes para un test, reiniciamos el ciclo
+    if (available.length < 30) {
+        localStorage.removeItem('uax_played_questions');
+        return [...totalQuestionsBank];
+    }
+    return available;
+}
+
+/**
+ * Guarda el ID de la pregunta en el historial del navegador
+ */
+function markAsPlayed(questionText) {
+    let playedIds = JSON.parse(localStorage.getItem('uax_played_questions')) || [];
+    // Buscamos el índice original en el banco total para que sea persistente
+    const originalIndex = totalQuestionsBank.findIndex(q => q.question === questionText);
+    
+    if (originalIndex !== -1 && !playedIds.includes(originalIndex)) {
+        playedIds.push(originalIndex);
+        localStorage.setItem('uax_played_questions', JSON.stringify(playedIds));
+    }
+}
+
+/**
+ * Prepara una nueva tanda de 30 preguntas
  */
 function prepareNewTest() {
-    const shuffled = [...totalQuestionsBank].sort(() => 0.5 - Math.random());
+    const available = getAvailableQuestions();
+    
+    // Mezclamos y elegimos 30 de las disponibles (o del banco total si se reinició)
+    const shuffled = available.sort(() => 0.5 - Math.random());
     quizData = shuffled.slice(0, 30);
+    
     currentQ = 0;
     score = 0;
     
     resultScreen.classList.add('hide');
     quizHeader.classList.remove('hide');
-    nextBtn.classList.add('hide'); 
     
     loadQuestion();
 }
 
 /**
- * Carga la pregunta actual
+ * Carga la pregunta actual en la interfaz
  */
 function loadQuestion() {
     answered = false;
-    nextBtn.classList.add('hide');
-    
     const data = quizData[currentQ];
+    
+    // Mezclar opciones para que varíen de posición siempre (A, B, C rotan)
     const shuffledAnswers = [...data.answers].sort(() => 0.5 - Math.random());
     
     questionEl.innerText = `(${currentQ + 1}/30) ${data.question}`;
@@ -249,18 +282,23 @@ function loadQuestion() {
 }
 
 /**
- * Verifica la opción al hacer clic y pasa automáticamente
+ * Verifica la opción al hacer clic y pasa solo tras feedback visual
  */
 function checkOption(element, selectedText) {
     answered = true;
     const data = quizData[currentQ];
     const options = document.querySelectorAll('.option');
 
+    // Registrar esta pregunta en la memoria de "ya hechas"
+    markAsPlayed(data.question);
+
     options.forEach(opt => {
         opt.classList.add('disabled');
+        // Pintamos la correcta en verde
         if (opt.innerText === data.correct) {
             opt.classList.add('correct');
         }
+        // Si fallaste, pintamos tu elección en rojo
         if (opt.innerText === selectedText && selectedText !== data.correct) {
             opt.classList.add('wrong');
         }
@@ -270,32 +308,25 @@ function checkOption(element, selectedText) {
         score++;
     }
 
-    // Retraso de 1 segundo antes de pasar solo
+    // Paso automático tras 1 segundo para ver el resultado
     setTimeout(() => {
-        handleNavigation();
+        currentQ++;
+        if (currentQ < 30) {
+            loadQuestion();
+        } else {
+            showResults();
+        }
     }, 1000);
 }
 
 /**
- * Lógica para avanzar o mostrar resultados
- */
-function handleNavigation() {
-    currentQ++;
-    if (currentQ < 30) {
-        loadQuestion();
-    } else {
-        showResults();
-    }
-}
-
-/**
- * Muestra el resultado final
+ * Muestra la nota final
  */
 function showResults() {
     quizHeader.classList.add('hide');
-    nextBtn.classList.add('hide');
     resultScreen.classList.remove('hide');
     
+    // Cálculo nota sobre 10
     const finalGrade = (score / 30) * 10;
     document.getElementById('grade').innerText = finalGrade.toFixed(1);
 }
